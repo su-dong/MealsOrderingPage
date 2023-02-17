@@ -1,0 +1,19 @@
+.board{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*===============Tablet======================*/
+
+@media screen and (max-width:1024px) {
+    .board{
+        width: 75%;
+    }
+}
+
+/*================phone====================*/
+@media screen and (max-width:600px) {
+    .board{
+        width: 90%;
+    }
+}

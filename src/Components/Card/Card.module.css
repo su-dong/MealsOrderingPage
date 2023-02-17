@@ -1,0 +1,101 @@
+.card{
+    display: flex;
+    border: 0.5px rgb(139, 131, 131);
+    border-radius: 10px;
+    margin: 10px 5px;
+    background-color: #f6f8fa;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(210, 210, 210);
+
+}
+
+.textContainer{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text{
+    text-align: center;
+    width: auto;
+}
+
+.text h2{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text p{
+    margin: 0 auto;
+    text-align: left;
+    color: rgb(86, 97, 97);
+    min-height: 50px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 2px;
+}
+
+.bot{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left:1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.price{
+    font-weight: bold;
+    padding-top: 0;
+}
+
+
+/*================phone============================*/
+@media screen and (max-width:750px) {
+    .bot{
+        margin-right: 0.5rem;
+        
+    }
+    .image{
+        height: 70%;
+        width: 90%;
+
+        padding-left: 2px;
+    }
+    .imgContainer{
+        width: 40%;
+    }
+    .textContainer{
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .text p{
+        font-size: x-small;
+    }
+
+    .text h2{
+        font-size: small;
+
+    }
+
+    
+}
+
