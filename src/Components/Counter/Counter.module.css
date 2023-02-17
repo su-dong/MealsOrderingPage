@@ -1,0 +1,15 @@
+.counter{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.icon{
+    font-size: 1.5rem;
+    margin: auto 2px;
+}
+
+.icon:hover{
+    color: aquamarine;
+}
